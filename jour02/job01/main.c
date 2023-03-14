@@ -1,38 +1,38 @@
 #include <stdio.h>
 
-int my_mul(int a, int b) {
-    int resultat = a * b;
+float my_mul(float a, float b) {
+    float resultat = a * b;
     printf("%d * %d = %d\n", a, b, resultat);
     return resultat;
 }
 
-int my_add(int a, int b) {
-    int resultat = a + b;
+float my_add(float a, float b) {
+    float resultat = a + b;
     printf("%d + %d = %d\n", a, b, resultat);
     return resultat;
 }
 
-int my_sub(int a, int b) {
-    int resultat = a - b;
+float my_sub(float a, float b) {
+    float resultat = a - b;
     printf("%d - %d = %d\n", a, b, resultat);
     return resultat;
 }
 
-int my_div(int a, int b) {
-    int resultat = a / b;
+float my_div(float a, float b) {
+    float resultat = a / b;
     printf("%d / %d = %d\n", a, b, resultat);
     return resultat;
 }
 
-int my_mod(int a, int b) {
-    int resultat = a % b;
+int my_mod(float a, float b) {
+    float resultat = a % b;
     printf("%d mod %d = %d\n", a, b, resultat);
     return resultat;
 }
 
 int main() {
-    int a;
-    int b;
+    float a;
+    float b;
     printf("Entrez le un premier chiffre :");
     scanf("%d", &a);
     printf("Entrez un deuxième chiffre :");
